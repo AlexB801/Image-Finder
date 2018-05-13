@@ -37,9 +37,9 @@ class Search extends Component {
           value={this.state.searchText}
           onChange={this.onTextChange}
           floatingLabelText="Search For Images"
-          fullWidth={true}
+          fullWidth={false}
         />
-        <br/>
+        <br />
         <SelectField
           name="amount"
           floatingLabelText="Amount"
